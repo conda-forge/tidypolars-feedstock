@@ -21,7 +21,7 @@ requirements:
     - poetry
   run:
     - python >=3.6,<3.11
-    - polars >=0.14.0
+    - polars >=0.14.18
 
 test:
   imports:
