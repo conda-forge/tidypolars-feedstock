@@ -1,5 +1,5 @@
 {% set name = "tidypolars" %}
-{% set version = "0.2.18" %}
+{% set version = "0.2.19" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tidypolars-{{ version }}.tar.gz
-  sha256: b082916ced59e995e4f6947cc8c24ea949804e38f5cca4f90a0c61da506c2442
+  sha256: 344e7abe3a973b0320a27d7eea48ffaf4efb5dd6f3d5441a2dfd835f6342ee93
 
 build:
   noarch: python
